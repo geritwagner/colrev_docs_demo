@@ -3,3 +3,6 @@ description: The CoLRev docs demo
 theme: just-the-docs
 
 url: https://geritwagner.github.io/colrev_docs_demo/
+
+mermaid:
+  version: "11.4.0"
