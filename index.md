@@ -15,10 +15,11 @@ CoLRev helps researchers conduct transparent, reproducible, and collaborative li
 - Promote open science through Git-based tracking and reusable components.
 - Reduce manual overhead with automation, integration, and configuration.
 
-\\mermaid
+```mermaid
 flowchart TD
-    A(init) --> B(search)
-    B --> C(screen)
-    C --> D(synthesize) --> B
-    D --> E(publish)
-\\
+    A[Init] --> B[Search]
+    B --> C[Screen]
+    C --> D[Synthesize]
+    D --> B
+    D --> E[Publish]
+```
