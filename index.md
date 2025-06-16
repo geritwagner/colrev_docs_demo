@@ -16,7 +16,7 @@ CoLRev helps researchers conduct transparent, reproducible, and collaborative li
 - Reduce manual overhead with automation, integration, and configuration.
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Init] --> B[Search]
     B --> C[Screen]
     C --> D[Synthesize]
